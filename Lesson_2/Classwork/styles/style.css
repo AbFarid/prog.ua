@@ -1,0 +1,17 @@
+p {
+  color: blue;
+  font-size: 30px;
+  font-weight: 700;
+}
+p:before {
+  content: "Вы верно подключили .css файл!";
+  display: block;
+  font-size: 20px;
+  color: red;
+}
+p:after {
+  content: "Цвет вашего текста стал синим, и жирным!";
+  display: block;
+  font-size: 20px;
+  color: red;
+}
