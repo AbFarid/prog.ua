@@ -1,0 +1,226 @@
+@import "vars"
+
+body
+	font-family: $mainFont
+	font-size: 16px
+	position: relative
+	overflow-x: hidden
+	line-height: 1.4
+
+h1,h2,h3,h4,h5,h6
+	line-height: 1
+body,h1,h2,h3,h4,h5,h6,ul,p
+	margin: 0
+nav
+	display: block
+ul
+	padding: 0
+	list-style-type: none
+
+a
+	text-decoration: none
+.container
+	width: 1170px
+	margin: 0 auto
+.flex
+	display: flex
+
+.space_between
+	justify-content: space-between
+.items_bottom
+	align-items: flex-end
+
+
+.section_title__descr
+	font-weight: 800
+	font-size: 42px
+
+.section_title__handwriten
+	font-size: 36px
+	font-family: $handWriting
+	margin-bottom: 30px
+	line-height: 1
+.section_title__handwriten--gray
+	color: $darkishText
+
+//header
+header
+	position: fixed
+	top: 30px
+	left: 0
+	width: 100%
+	height: 50px
+	line-height: 50px
+	z-index: 500
+.header_logo
+	height: 50px
+
+.nav_element
+	display: inline-block
+	padding: 0 17px
+	font-weight: 300
+.nav_element__link
+	color: #fff
+	transition: all .3s
+	&:hover
+		color: darken(#fff, 40)
+
+//start_s
+.start_s
+	background-image: url('../img/photo.png')
+	background-size: cover
+	height: 100vh
+	position: relative
+	color: #fff
+	z-index: 1
+	&:after
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: transparentize($darkColor, .3)
+		z-index: -1
+
+.start_s_container
+	height: 100%
+	align-items: center
+
+.start_s_title
+	width: 50%
+	padding-top: 50px
+
+.start_s_title__lg
+	font-size: 60px
+	font-weight: 800
+	margin-bottom: 10px
+	>span
+		color: $mainColor
+.start_s_title__md
+	font-size: 40px
+	font-weight: 300
+	margin-bottom: 30px
+.start_s_title__text
+	font-weight: 300
+	font-size: 24px
+	color: $darkText
+	margin-bottom: 30px
+
+
+//about_s
+.about_s
+	background-color: $mainColor
+	padding: 100px 0 80px 0
+	color: #fff
+.about_s_text
+	width: 48%
+.about_s_text--lg
+	font-weight: 800
+	font-size: 42px
+.about_s_text--sm
+	font-size: 20px
+
+
+//skills_s
+.skills_s
+	background-color: darken($mainColor, 5)
+	padding: 80px 0
+	color: #fff
+
+.skills_s_item
+	width: 35%
+	background-size: 70px
+	background-position: 0 0
+	background-repeat: no-repeat
+	padding-left: 95px
+.skills_s_item__name
+	font-size: 24px
+	margin-bottom: 20px
+.skills_s_item__descr
+	font-size: 18px
+	font-weight: 300
+
+
+
+//portfolio_s
+.portfolio_s
+	padding: 90px 0
+
+
+.works
+	display: flex
+	height: 790px
+	margin-top: 90px
+.works_half_1,
+.works_half_2
+	width: 50%
+	display: flex
+	flex-wrap: wrap
+	align-items: flex-start
+.works_half_1
+	.works_item
+		&:nth-child(1)
+			width: 100%
+			height: 62%
+			background-image: url('../img/prjct2.jpg')
+			background-size: cover
+			background-position: center
+		&:nth-child(2)
+			width: 50%
+			height: 38%
+			background-image: url('../img/prjct1.png')
+			background-size: cover
+		&:nth-child(3)
+			width: 50%
+			height: 38%
+			background-image: url('../img/prjct2.jpg')
+			background-size: cover
+
+.works_half_2
+	justify-content: flex-end
+	.works_item
+		&:nth-child(1)
+			width: 50%
+			height: 100%
+			background-image: url('../img/prjct2.jpg')
+			background-size: cover
+		&:nth-child(2)
+			width: 50%
+			height: 62%
+			background-image: url('../img/prjct2.jpg')
+			background-size: cover
+		&:nth-child(3)
+			width: 50%
+			height: 38%
+			background-image: url('../img/prjct2.jpg')
+			background-size: cover
+
+.works_item
+	position: relative
+	overflow: hidden
+	&:hover
+		.works_item_content
+			top: 0
+
+.works_item_content
+	transition: all .4s
+	position: absolute
+	top: -100%
+	left: 0
+	width: 100%
+	height: 100%
+	background-color: transparentize( #000, .5 )
+	color: #fff
+	display: flex
+	align-items: center
+	justify-content: center
+	flex-direction: column
+
+.works_item_content__cat
+	color: darken( #fff, 20 )
+	font-weight: 300
+	margin-bottom: 20px
+
+.works_item_content__title
+	font-size: 20px
