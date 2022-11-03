@@ -1,4 +1,4 @@
-# prog.ua Course Files
+<!-- # prog.ua Course Files -->
 
 ## About
 
@@ -13,7 +13,7 @@ Links marked with a ★ are the ones more or less worth checking out.
 ### [Classwork](./Lesson_1/Classwork/index.html)
 Quadratic equations, to demonstrate superscript tag. The content is also included in one of the pages in Homework below
 
-### [★ Homework]({./Lesson_1/Homework/index.html)
+### [★ Homework](./Lesson_1/Homework/index.html)
 Several meme-y pages with ironic fake ads that were relevant at the time.
 
 ---
@@ -33,7 +33,7 @@ Linking external JS and CSS files to HTML files.
 ### [Classwork](./Lesson_3/Classwork/index.html)
 Something about `display: flex;`.
 
-### [★ Homework]({./Lesson_3/Homework/index.html)
+### [★ Homework](./Lesson_3/Homework/index.html)
 An animated 3D Rubik's cube!  
 (It used to work fine, but now it's a little jerky)
 
@@ -41,7 +41,7 @@ An animated 3D Rubik's cube!
 
 ## Lesson 4
 
-### [Classwork](./Lesson_4/Classwork/index.html)
+### [Classwork](./Lesson_4/index.html)
 An example of a graphic designer's portfolio website.
 
 ### Homework

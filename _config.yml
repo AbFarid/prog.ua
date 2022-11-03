@@ -1,3 +1,7 @@
+theme: leap-day
+title: prog.ua Course Files
+description: Classwork and homework storage
+author: AbFarid
 plugins:
   - jekyll-relative-links
 relative_links:
