@@ -1,6 +1,6 @@
 theme: jekyll-theme-leap-day
 title: prog.ua Course Files
-description: Classwork and homework storage
+description: classwork and homework assignments
 author: AbFarid
 plugins:
   - jekyll-relative-links

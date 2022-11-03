@@ -2,7 +2,8 @@
 
 ## About
 
-This repository contains the result pages for class- and homework tasks of the **prog.ua** web dev course. For the most part, the pages are trash, except a few neat ones. Content is mostly in Russian. Keeping these for no reason other than sentimental *value*.
+This repository contains the result pages of class- and homework tasks of the **prog.ua Front-end Start** (group 28) course.  
+For the most part, the pages are trash, except a few neat ones. Content is mostly in Russian. Keeping these for no reason other than *sentimental value*.
 
 Links marked with a ★ are the ones more or less worth checking out.
 
@@ -11,7 +12,8 @@ Links marked with a ★ are the ones more or less worth checking out.
 ## Lesson 1
 
 ### [Classwork](./Lesson_1/Classwork/index.html)
-Quadratic equations, to demonstrate superscript tag. The content is also included in one of the pages in Homework below
+Quadratic equations that demonstrate superscript tag.  
+The content is also included in one of the pages in Homework below.
 
 ### [★ Homework](./Lesson_1/Homework/index.html)
 Several meme-y pages with ironic fake ads that were relevant at the time.
